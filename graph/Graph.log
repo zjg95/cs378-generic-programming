@@ -1,0 +1,97 @@
+commit 1fd63256201e06955cab45529e533a9055928994
+Author: Zachary Goodman <zjgoodman@utexas.edu>
+Date:   Mon Jul 20 02:06:56 2015 -0500
+
+    fixed #15 fixed #19 fixed #20
+
+commit 6e416be3863fa81faa10cce4b5321ddf205dfcb7
+Author: Zachary Goodman <zjgoodman@utexas.edu>
+Date:   Mon Jul 20 02:02:47 2015 -0500
+
+    fixed #18
+
+commit e9a1d6d7ade591e40110e27cec8d611f40248ef6
+Merge: d418eda 58426b2
+Author: Zachary Goodman <zjgoodman@utexas.edu>
+Date:   Mon Jul 20 02:00:50 2015 -0500
+
+    Merge branch 'dev' of github.com:zjg95/cs378-graph into dev
+
+commit d418edabcd550b570d486d8b101f21216bb2afe1
+Author: Zachary Goodman <zjgoodman@utexas.edu>
+Date:   Mon Jul 20 01:58:54 2015 -0500
+
+    finished tests and code body. everything seems to work. fixed #6 fixed #7 fixed #16 fixed #17
+
+commit 58426b21deac02735e01d2090c653427cab3143b
+Author: Zachary Goodman <zjgoodman@utexas.edu>
+Date:   Mon Jul 20 01:58:54 2015 -0500
+
+    finished tests and code body. everything seems to work.
+
+commit 48297bc4a72dcdb86790aaa044598694aba4a9d5
+Author: Zachary Goodman <zjgoodman@utexas.edu>
+Date:   Mon Jul 20 01:03:07 2015 -0500
+
+    updated code, passing all written tests.
+
+commit 429df7e43a271ec20a2696ce6026c886784794fa
+Author: Zachary Goodman <zjgoodman@utexas.edu>
+Date:   Mon Jul 20 00:22:09 2015 -0500
+
+    wrote more tests
+
+commit 4ab2cdf250a5cb4971a9940bf23a962aba611462
+Author: Zachary Goodman <zjgoodman@utexas.edu>
+Date:   Sun Jul 19 01:07:17 2015 -0500
+
+    updated tests, updated code.
+
+commit c7beb1abe79dc8c88f6dd7655bb3f897e4227d2c
+Merge: 1f641b9 df9c9d7
+Author: Zachary Goodman <zjgoodman@utexas.edu>
+Date:   Sat Jul 18 23:26:59 2015 -0500
+
+    Merge branch 'dev' of github.com:zjg95/cs378-graph into dev
+
+commit 1f641b949168cf408d9a9501bc1a3331bff0f552
+Author: Zachary Goodman <zjgoodman@utexas.edu>
+Date:   Sat Jul 18 23:26:53 2015 -0500
+
+    wrote more unit tests. #6
+
+commit df9c9d7f92810d2834592e0966c4cf675b2acaf3
+Author: Zachary Goodman <zjg95@users.noreply.github.com>
+Date:   Sat Jul 18 22:11:56 2015 -0500
+
+    Update .travis.yml
+
+commit d03a2b1f54a8b60875f023787f92399e1123812b
+Author: Zachary Goodman <zjg95@users.noreply.github.com>
+Date:   Sat Jul 18 22:11:24 2015 -0500
+
+    Update .travis.yml
+
+commit e1639627c1d83f332dae6ed35fc102cb47202a0a
+Author: Zachary Goodman <zjgoodman@utexas.edu>
+Date:   Sat Jul 18 22:09:25 2015 -0500
+
+    wrote unit test skeleton. #6
+
+commit ce89a917d7d3d684eee2eb304330f417d921d107
+Author: Zachary Goodman <zjgoodman@utexas.edu>
+Date:   Sat Jul 18 21:54:14 2015 -0500
+
+    wrote doxygen comments. #15
+
+commit a1d472e666ea39304b7111ce11f2a693033cdce4
+Author: Zachary Goodman <zjgoodman@utexas.edu>
+Date:   Sat Jul 18 21:48:53 2015 -0500
+
+    fixed #4 fixed #5 fixed #14
+
+commit 94e1941c4ee98c99afd6957e89052fa1e02edfb7
+Author: Zachary Goodman <zjgoodman@utexas.edu>
+Date:   Sat Jul 18 20:25:00 2015 -0500
+
+    added initial files
