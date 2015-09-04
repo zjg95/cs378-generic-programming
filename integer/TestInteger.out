@@ -1,0 +1,740 @@
+==3710== Memcheck, a memory error detector
+==3710== Copyright (C) 2002-2011, and GNU GPL'd, by Julian Seward et al.
+==3710== Using Valgrind-3.7.0 and LibVEX; rerun with -h for copyright info
+==3710== Command: ./TestInteger
+==3710== 
+Running main() from gtest_main.cc
+[==========] Running 145 tests from 4 test cases.
+[----------] Global test environment set-up.
+[----------] 80 tests from IntegerClass
+[ RUN      ] IntegerClass.int_constructor_1
+[       OK ] IntegerClass.int_constructor_1 (95 ms)
+[ RUN      ] IntegerClass.int_constructor_2
+[       OK ] IntegerClass.int_constructor_2 (7 ms)
+[ RUN      ] IntegerClass.int_constructor_3
+[       OK ] IntegerClass.int_constructor_3 (6 ms)
+[ RUN      ] IntegerClass.int_constructor_4
+[       OK ] IntegerClass.int_constructor_4 (4 ms)
+[ RUN      ] IntegerClass.string_constructor_1
+[       OK ] IntegerClass.string_constructor_1 (20 ms)
+[ RUN      ] IntegerClass.string_constructor_2
+[       OK ] IntegerClass.string_constructor_2 (5 ms)
+[ RUN      ] IntegerClass.string_constructor_3
+[       OK ] IntegerClass.string_constructor_3 (6 ms)
+[ RUN      ] IntegerClass.string_constructor_4
+[       OK ] IntegerClass.string_constructor_4 (6 ms)
+[ RUN      ] IntegerClass.string_constructor_5
+[       OK ] IntegerClass.string_constructor_5 (8 ms)
+[ RUN      ] IntegerClass.negate_1
+[       OK ] IntegerClass.negate_1 (24 ms)
+[ RUN      ] IntegerClass.negate_2
+[       OK ] IntegerClass.negate_2 (6 ms)
+[ RUN      ] IntegerClass.negate_3
+[       OK ] IntegerClass.negate_3 (5 ms)
+[ RUN      ] IntegerClass.abs_1
+[       OK ] IntegerClass.abs_1 (5 ms)
+[ RUN      ] IntegerClass.abs_2
+[       OK ] IntegerClass.abs_2 (4 ms)
+[ RUN      ] IntegerClass.abs_3
+[       OK ] IntegerClass.abs_3 (6 ms)
+[ RUN      ] IntegerClass.plus_equals_1
+[       OK ] IntegerClass.plus_equals_1 (29 ms)
+[ RUN      ] IntegerClass.plus_equals_2
+[       OK ] IntegerClass.plus_equals_2 (6 ms)
+[ RUN      ] IntegerClass.plus_equals_3
+[       OK ] IntegerClass.plus_equals_3 (7 ms)
+[ RUN      ] IntegerClass.plus_equals_4
+[       OK ] IntegerClass.plus_equals_4 (6 ms)
+[ RUN      ] IntegerClass.plus_equals_5
+[       OK ] IntegerClass.plus_equals_5 (6 ms)
+[ RUN      ] IntegerClass.plus_equals_6
+[       OK ] IntegerClass.plus_equals_6 (16 ms)
+[ RUN      ] IntegerClass.plus_equals_7
+[       OK ] IntegerClass.plus_equals_7 (14 ms)
+[ RUN      ] IntegerClass.plus_equals_8
+[       OK ] IntegerClass.plus_equals_8 (10 ms)
+[ RUN      ] IntegerClass.plus_equals_9
+[       OK ] IntegerClass.plus_equals_9 (5 ms)
+[ RUN      ] IntegerClass.plus_equals_10
+[       OK ] IntegerClass.plus_equals_10 (7 ms)
+[ RUN      ] IntegerClass.plus_equals_11
+[       OK ] IntegerClass.plus_equals_11 (7 ms)
+[ RUN      ] IntegerClass.plus_equals_12
+[       OK ] IntegerClass.plus_equals_12 (14 ms)
+[ RUN      ] IntegerClass.plus_equals_13
+[       OK ] IntegerClass.plus_equals_13 (10 ms)
+[ RUN      ] IntegerClass.minus_equals_1
+[       OK ] IntegerClass.minus_equals_1 (5 ms)
+[ RUN      ] IntegerClass.minus_equals_2
+[       OK ] IntegerClass.minus_equals_2 (6 ms)
+[ RUN      ] IntegerClass.minus_equals_3
+[       OK ] IntegerClass.minus_equals_3 (7 ms)
+[ RUN      ] IntegerClass.minus_equals_4
+[       OK ] IntegerClass.minus_equals_4 (6 ms)
+[ RUN      ] IntegerClass.minus_equals_5
+[       OK ] IntegerClass.minus_equals_5 (5 ms)
+[ RUN      ] IntegerClass.minus_equals_6
+[       OK ] IntegerClass.minus_equals_6 (6 ms)
+[ RUN      ] IntegerClass.minus_equals_7
+[       OK ] IntegerClass.minus_equals_7 (5 ms)
+[ RUN      ] IntegerClass.minus_equals_8
+[       OK ] IntegerClass.minus_equals_8 (5 ms)
+[ RUN      ] IntegerClass.minus_equals_9
+[       OK ] IntegerClass.minus_equals_9 (6 ms)
+[ RUN      ] IntegerClass.minus_equals_10
+[       OK ] IntegerClass.minus_equals_10 (6 ms)
+[ RUN      ] IntegerClass.minus_equals_11
+[       OK ] IntegerClass.minus_equals_11 (8 ms)
+[ RUN      ] IntegerClass.minus_equals_12
+[       OK ] IntegerClass.minus_equals_12 (5 ms)
+[ RUN      ] IntegerClass.minus_equals_13
+[       OK ] IntegerClass.minus_equals_13 (6 ms)
+[ RUN      ] IntegerClass.minus_equals_14
+[       OK ] IntegerClass.minus_equals_14 (5 ms)
+[ RUN      ] IntegerClass.right_shift_equals_1
+[       OK ] IntegerClass.right_shift_equals_1 (11 ms)
+[ RUN      ] IntegerClass.right_shift_equals_2
+[       OK ] IntegerClass.right_shift_equals_2 (4 ms)
+[ RUN      ] IntegerClass.right_shift_equals_3
+[       OK ] IntegerClass.right_shift_equals_3 (5 ms)
+[ RUN      ] IntegerClass.left_shift_equals_1
+[       OK ] IntegerClass.left_shift_equals_1 (10 ms)
+[ RUN      ] IntegerClass.left_shift_equals_2
+[       OK ] IntegerClass.left_shift_equals_2 (5 ms)
+[ RUN      ] IntegerClass.left_shift_equals_3
+[       OK ] IntegerClass.left_shift_equals_3 (5 ms)
+[ RUN      ] IntegerClass.times_equals_1
+[       OK ] IntegerClass.times_equals_1 (13 ms)
+[ RUN      ] IntegerClass.times_equals_2
+[       OK ] IntegerClass.times_equals_2 (5 ms)
+[ RUN      ] IntegerClass.times_equals_3
+[       OK ] IntegerClass.times_equals_3 (7 ms)
+[ RUN      ] IntegerClass.times_equals_4
+[       OK ] IntegerClass.times_equals_4 (5 ms)
+[ RUN      ] IntegerClass.divide_equals_1
+[       OK ] IntegerClass.divide_equals_1 (27 ms)
+[ RUN      ] IntegerClass.divide_equals_2
+[       OK ] IntegerClass.divide_equals_2 (8 ms)
+[ RUN      ] IntegerClass.divide_equals_3
+[       OK ] IntegerClass.divide_equals_3 (8 ms)
+[ RUN      ] IntegerClass.divide_equals_4
+[       OK ] IntegerClass.divide_equals_4 (7 ms)
+[ RUN      ] IntegerClass.divide_equals_5
+[       OK ] IntegerClass.divide_equals_5 (19039 ms)
+[ RUN      ] IntegerClass.divide_equals_6
+[       OK ] IntegerClass.divide_equals_6 (8 ms)
+[ RUN      ] IntegerClass.divide_equals_7
+[       OK ] IntegerClass.divide_equals_7 (10 ms)
+[ RUN      ] IntegerClass.divide_equals_8
+[       OK ] IntegerClass.divide_equals_8 (15 ms)
+[ RUN      ] IntegerClass.mod_equals_1
+[       OK ] IntegerClass.mod_equals_1 (13 ms)
+[ RUN      ] IntegerClass.mod_equals_2
+[       OK ] IntegerClass.mod_equals_2 (5 ms)
+[ RUN      ] IntegerClass.mod_equals_3
+[       OK ] IntegerClass.mod_equals_3 (5 ms)
+[ RUN      ] IntegerClass.mod_equals_4
+[       OK ] IntegerClass.mod_equals_4 (5 ms)
+[ RUN      ] IntegerClass.mod_equals_5
+[       OK ] IntegerClass.mod_equals_5 (5 ms)
+[ RUN      ] IntegerClass.mod_equals_6
+[       OK ] IntegerClass.mod_equals_6 (4 ms)
+[ RUN      ] IntegerClass.mod_equals_7
+[       OK ] IntegerClass.mod_equals_7 (4 ms)
+[ RUN      ] IntegerClass.mod_equals_8
+[       OK ] IntegerClass.mod_equals_8 (4 ms)
+[ RUN      ] IntegerClass.mod_equals_9
+[       OK ] IntegerClass.mod_equals_9 (5 ms)
+[ RUN      ] IntegerClass.mod_equals_10
+[       OK ] IntegerClass.mod_equals_10 (5 ms)
+[ RUN      ] IntegerClass.mod_equals_11
+[       OK ] IntegerClass.mod_equals_11 (6 ms)
+[ RUN      ] IntegerClass.mod_equals_12
+[       OK ] IntegerClass.mod_equals_12 (9 ms)
+[ RUN      ] IntegerClass.mod_equals_13
+[       OK ] IntegerClass.mod_equals_13 (465 ms)
+[ RUN      ] IntegerClass.mod_equals_14
+[       OK ] IntegerClass.mod_equals_14 (41 ms)
+[ RUN      ] IntegerClass.mod_equals_15
+[       OK ] IntegerClass.mod_equals_15 (42 ms)
+[ RUN      ] IntegerClass.pow_1
+[       OK ] IntegerClass.pow_1 (7 ms)
+[ RUN      ] IntegerClass.pow_2
+[       OK ] IntegerClass.pow_2 (8 ms)
+[ RUN      ] IntegerClass.pow_3
+[       OK ] IntegerClass.pow_3 (6 ms)
+[ RUN      ] IntegerClass.pow_4
+[       OK ] IntegerClass.pow_4 (8 ms)
+[ RUN      ] IntegerClass.pow_5
+[       OK ] IntegerClass.pow_5 (33 ms)
+[----------] 80 tests from IntegerClass (20324 ms total)
+
+[----------] 59 tests from IntegerFunctions
+[ RUN      ] IntegerFunctions.shift_left_digits_1
+[       OK ] IntegerFunctions.shift_left_digits_1 (5 ms)
+[ RUN      ] IntegerFunctions.shift_left_digits_2
+[       OK ] IntegerFunctions.shift_left_digits_2 (5 ms)
+[ RUN      ] IntegerFunctions.shift_left_digits_3
+[       OK ] IntegerFunctions.shift_left_digits_3 (5 ms)
+[ RUN      ] IntegerFunctions.shift_left_digits_4
+[       OK ] IntegerFunctions.shift_left_digits_4 (5 ms)
+[ RUN      ] IntegerFunctions.shift_left_digits_5
+[       OK ] IntegerFunctions.shift_left_digits_5 (8 ms)
+[ RUN      ] IntegerFunctions.shift_right_digits_1
+[       OK ] IntegerFunctions.shift_right_digits_1 (5 ms)
+[ RUN      ] IntegerFunctions.shift_right_digits_2
+[       OK ] IntegerFunctions.shift_right_digits_2 (5 ms)
+[ RUN      ] IntegerFunctions.shift_right_digits_3
+[       OK ] IntegerFunctions.shift_right_digits_3 (6 ms)
+[ RUN      ] IntegerFunctions.shift_right_digits_4
+[       OK ] IntegerFunctions.shift_right_digits_4 (6 ms)
+[ RUN      ] IntegerFunctions.shift_right_digits_5
+[       OK ] IntegerFunctions.shift_right_digits_5 (5 ms)
+[ RUN      ] IntegerFunctions.abs_1
+[       OK ] IntegerFunctions.abs_1 (6 ms)
+[ RUN      ] IntegerFunctions.abs_2
+[       OK ] IntegerFunctions.abs_2 (6 ms)
+[ RUN      ] IntegerFunctions.abs_3
+[       OK ] IntegerFunctions.abs_3 (6 ms)
+[ RUN      ] IntegerFunctions.print_1
+[       OK ] IntegerFunctions.print_1 (5 ms)
+[ RUN      ] IntegerFunctions.print_2
+[       OK ] IntegerFunctions.print_2 (4 ms)
+[ RUN      ] IntegerFunctions.print_3
+[       OK ] IntegerFunctions.print_3 (4 ms)
+[ RUN      ] IntegerFunctions.equal_1
+[       OK ] IntegerFunctions.equal_1 (4 ms)
+[ RUN      ] IntegerFunctions.equal_2
+[       OK ] IntegerFunctions.equal_2 (4 ms)
+[ RUN      ] IntegerFunctions.equal_3
+[       OK ] IntegerFunctions.equal_3 (5 ms)
+[ RUN      ] IntegerFunctions.equal_4
+[       OK ] IntegerFunctions.equal_4 (4 ms)
+[ RUN      ] IntegerFunctions.equal_5
+[       OK ] IntegerFunctions.equal_5 (4 ms)
+[ RUN      ] IntegerFunctions.equal_6
+[       OK ] IntegerFunctions.equal_6 (4 ms)
+[ RUN      ] IntegerFunctions.equal_7
+[       OK ] IntegerFunctions.equal_7 (4 ms)
+[ RUN      ] IntegerFunctions.equal_8
+[       OK ] IntegerFunctions.equal_8 (5 ms)
+[ RUN      ] IntegerFunctions.equal_9
+[       OK ] IntegerFunctions.equal_9 (4 ms)
+[ RUN      ] IntegerFunctions.equal_10
+[       OK ] IntegerFunctions.equal_10 (5 ms)
+[ RUN      ] IntegerFunctions.less_than_1
+[       OK ] IntegerFunctions.less_than_1 (4 ms)
+[ RUN      ] IntegerFunctions.less_than_2
+[       OK ] IntegerFunctions.less_than_2 (5 ms)
+[ RUN      ] IntegerFunctions.less_than_3
+[       OK ] IntegerFunctions.less_than_3 (4 ms)
+[ RUN      ] IntegerFunctions.less_than_4
+[       OK ] IntegerFunctions.less_than_4 (7 ms)
+[ RUN      ] IntegerFunctions.less_than_5
+[       OK ] IntegerFunctions.less_than_5 (4 ms)
+[ RUN      ] IntegerFunctions.less_than_6
+[       OK ] IntegerFunctions.less_than_6 (5 ms)
+[ RUN      ] IntegerFunctions.less_than_7
+[       OK ] IntegerFunctions.less_than_7 (4 ms)
+[ RUN      ] IntegerFunctions.less_than_8
+[       OK ] IntegerFunctions.less_than_8 (4 ms)
+[ RUN      ] IntegerFunctions.less_than_9
+[       OK ] IntegerFunctions.less_than_9 (4 ms)
+[ RUN      ] IntegerFunctions.less_than_10
+[       OK ] IntegerFunctions.less_than_10 (4 ms)
+[ RUN      ] IntegerFunctions.less_than_11
+[       OK ] IntegerFunctions.less_than_11 (4 ms)
+[ RUN      ] IntegerFunctions.less_than_12
+[       OK ] IntegerFunctions.less_than_12 (6 ms)
+[ RUN      ] IntegerFunctions.less_than_13
+[       OK ] IntegerFunctions.less_than_13 (4 ms)
+[ RUN      ] IntegerFunctions.less_than_14
+[       OK ] IntegerFunctions.less_than_14 (4 ms)
+[ RUN      ] IntegerFunctions.less_than_15
+[       OK ] IntegerFunctions.less_than_15 (4 ms)
+[ RUN      ] IntegerFunctions.less_than_16
+[       OK ] IntegerFunctions.less_than_16 (4 ms)
+[ RUN      ] IntegerFunctions.less_than_17
+[       OK ] IntegerFunctions.less_than_17 (5 ms)
+[ RUN      ] IntegerFunctions.less_than_18
+[       OK ] IntegerFunctions.less_than_18 (4 ms)
+[ RUN      ] IntegerFunctions.less_than_19
+[       OK ] IntegerFunctions.less_than_19 (4 ms)
+[ RUN      ] IntegerFunctions.less_than_20
+[       OK ] IntegerFunctions.less_than_20 (4 ms)
+[ RUN      ] IntegerFunctions.less_than_21
+[       OK ] IntegerFunctions.less_than_21 (4 ms)
+[ RUN      ] IntegerFunctions.less_than_22
+[       OK ] IntegerFunctions.less_than_22 (5 ms)
+[ RUN      ] IntegerFunctions.plus_digits_1
+[       OK ] IntegerFunctions.plus_digits_1 (11 ms)
+[ RUN      ] IntegerFunctions.plus_digits_2
+[       OK ] IntegerFunctions.plus_digits_2 (8 ms)
+[ RUN      ] IntegerFunctions.plus_digits_3
+[       OK ] IntegerFunctions.plus_digits_3 (7 ms)
+[ RUN      ] IntegerFunctions.plus_digits_4
+[       OK ] IntegerFunctions.plus_digits_4 (7 ms)
+[ RUN      ] IntegerFunctions.plus_digits_5
+[       OK ] IntegerFunctions.plus_digits_5 (7 ms)
+[ RUN      ] IntegerFunctions.minus_digits_1
+[       OK ] IntegerFunctions.minus_digits_1 (12 ms)
+[ RUN      ] IntegerFunctions.minus_digits_2
+==3710== Invalid write of size 4
+==3710==    at 0x44165C: __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > > minus_digits<__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > > >(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >) (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x42CE4F: IntegerFunctions_minus_digits_2_Test::TestBody() (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x486DDC: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x47F436: testing::Test::Run() (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x47F50C: testing::TestInfo::Run() (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x47F656: testing::TestCase::Run() (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x47F8E6: testing::internal::UnitTestImpl::RunAllTests() (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x48695C: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x47EADA: testing::UnitTest::Run() (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x404CA4: main (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==  Address 0x7496fe4 is 0 bytes after a block of size 4 alloc'd
+==3710==    at 0x4C2B1C7: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==3710==    by 0x44E035: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x449376: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x44D273: void std::vector<int, std::allocator<int> >::_M_emplace_back_aux<int>(int&&) (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x4484AC: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x44268F: std::vector<int, std::allocator<int> >::push_back(int&&) (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x43BDC2: Integer<int, std::vector<int, std::allocator<int> > >::Integer(int) (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x42CD7B: IntegerFunctions_minus_digits_2_Test::TestBody() (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x486DDC: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x47F436: testing::Test::Run() (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x47F50C: testing::TestInfo::Run() (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x47F656: testing::TestCase::Run() (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710== 
+==3710== Invalid read of size 4
+==3710==    at 0x44166A: __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > > minus_digits<__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > > >(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >) (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x42CE4F: IntegerFunctions_minus_digits_2_Test::TestBody() (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x486DDC: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x47F436: testing::Test::Run() (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x47F50C: testing::TestInfo::Run() (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x47F656: testing::TestCase::Run() (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x47F8E6: testing::internal::UnitTestImpl::RunAllTests() (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x48695C: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x47EADA: testing::UnitTest::Run() (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x404CA4: main (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==  Address 0x7496fe4 is 0 bytes after a block of size 4 alloc'd
+==3710==    at 0x4C2B1C7: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==3710==    by 0x44E035: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x449376: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x44D273: void std::vector<int, std::allocator<int> >::_M_emplace_back_aux<int>(int&&) (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x4484AC: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x44268F: std::vector<int, std::allocator<int> >::push_back(int&&) (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x43BDC2: Integer<int, std::vector<int, std::allocator<int> > >::Integer(int) (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x42CD7B: IntegerFunctions_minus_digits_2_Test::TestBody() (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x486DDC: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x47F436: testing::Test::Run() (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x47F50C: testing::TestInfo::Run() (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x47F656: testing::TestCase::Run() (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710== 
+[       OK ] IntegerFunctions.minus_digits_2 (12 ms)
+[ RUN      ] IntegerFunctions.minus_digits_3
+==3710== Invalid write of size 4
+==3710==    at 0x44165C: __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > > minus_digits<__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > > >(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >) (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x42D3AD: IntegerFunctions_minus_digits_3_Test::TestBody() (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x486DDC: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x47F436: testing::Test::Run() (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x47F50C: testing::TestInfo::Run() (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x47F656: testing::TestCase::Run() (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x47F8E6: testing::internal::UnitTestImpl::RunAllTests() (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x48695C: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x47EADA: testing::UnitTest::Run() (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x404CA4: main (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==  Address 0x7497de4 is 0 bytes after a block of size 4 alloc'd
+==3710==    at 0x4C2B1C7: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==3710==    by 0x44E035: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x449376: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x44D273: void std::vector<int, std::allocator<int> >::_M_emplace_back_aux<int>(int&&) (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x4484AC: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x44268F: std::vector<int, std::allocator<int> >::push_back(int&&) (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x43BDC2: Integer<int, std::vector<int, std::allocator<int> > >::Integer(int) (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x42D2D9: IntegerFunctions_minus_digits_3_Test::TestBody() (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x486DDC: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x47F436: testing::Test::Run() (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x47F50C: testing::TestInfo::Run() (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x47F656: testing::TestCase::Run() (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710== 
+==3710== Invalid read of size 4
+==3710==    at 0x44166A: __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > > minus_digits<__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > > >(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >) (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x42D3AD: IntegerFunctions_minus_digits_3_Test::TestBody() (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x486DDC: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x47F436: testing::Test::Run() (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x47F50C: testing::TestInfo::Run() (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x47F656: testing::TestCase::Run() (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x47F8E6: testing::internal::UnitTestImpl::RunAllTests() (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x48695C: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x47EADA: testing::UnitTest::Run() (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x404CA4: main (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==  Address 0x7497de4 is 0 bytes after a block of size 4 alloc'd
+==3710==    at 0x4C2B1C7: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==3710==    by 0x44E035: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x449376: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x44D273: void std::vector<int, std::allocator<int> >::_M_emplace_back_aux<int>(int&&) (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x4484AC: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x44268F: std::vector<int, std::allocator<int> >::push_back(int&&) (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x43BDC2: Integer<int, std::vector<int, std::allocator<int> > >::Integer(int) (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x42D2D9: IntegerFunctions_minus_digits_3_Test::TestBody() (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x486DDC: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x47F436: testing::Test::Run() (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x47F50C: testing::TestInfo::Run() (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x47F656: testing::TestCase::Run() (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710== 
+==3710== Invalid write of size 4
+==3710==    at 0x44183B: __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > > minus_digits<__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > > >(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >) (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x42D3AD: IntegerFunctions_minus_digits_3_Test::TestBody() (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x486DDC: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x47F436: testing::Test::Run() (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x47F50C: testing::TestInfo::Run() (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x47F656: testing::TestCase::Run() (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x47F8E6: testing::internal::UnitTestImpl::RunAllTests() (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x48695C: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x47EADA: testing::UnitTest::Run() (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x404CA4: main (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==  Address 0x7497de8 is 4 bytes after a block of size 4 alloc'd
+==3710==    at 0x4C2B1C7: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==3710==    by 0x44E035: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x449376: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x44D273: void std::vector<int, std::allocator<int> >::_M_emplace_back_aux<int>(int&&) (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x4484AC: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x44268F: std::vector<int, std::allocator<int> >::push_back(int&&) (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x43BDC2: Integer<int, std::vector<int, std::allocator<int> > >::Integer(int) (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x42D2D9: IntegerFunctions_minus_digits_3_Test::TestBody() (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x486DDC: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x47F436: testing::Test::Run() (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x47F50C: testing::TestInfo::Run() (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x47F656: testing::TestCase::Run() (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710== 
+[       OK ] IntegerFunctions.minus_digits_3 (15 ms)
+[ RUN      ] IntegerFunctions.minus_digits_4
+==3710== Invalid write of size 4
+==3710==    at 0x44183B: __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > > minus_digits<__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > > >(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >) (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x42D90B: IntegerFunctions_minus_digits_4_Test::TestBody() (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x486DDC: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x47F436: testing::Test::Run() (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x47F50C: testing::TestInfo::Run() (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x47F656: testing::TestCase::Run() (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x47F8E6: testing::internal::UnitTestImpl::RunAllTests() (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x48695C: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x47EADA: testing::UnitTest::Run() (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x404CA4: main (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==  Address 0x7498b94 is 0 bytes after a block of size 4 alloc'd
+==3710==    at 0x4C2B1C7: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==3710==    by 0x44E035: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x449376: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x44D273: void std::vector<int, std::allocator<int> >::_M_emplace_back_aux<int>(int&&) (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x4484AC: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x44268F: std::vector<int, std::allocator<int> >::push_back(int&&) (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x43BDC2: Integer<int, std::vector<int, std::allocator<int> > >::Integer(int) (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x42D837: IntegerFunctions_minus_digits_4_Test::TestBody() (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x486DDC: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x47F436: testing::Test::Run() (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x47F50C: testing::TestInfo::Run() (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710==    by 0x47F656: testing::TestCase::Run() (in /v/filer4b/v38q001/zjg95/Desktop/378/projects/cs378-integer/TestInteger)
+==3710== 
+[       OK ] IntegerFunctions.minus_digits_4 (8 ms)
+[ RUN      ] IntegerFunctions.minus_digits_5
+[       OK ] IntegerFunctions.minus_digits_5 (6 ms)
+[ RUN      ] IntegerFunctions.minus_digits_6
+[       OK ] IntegerFunctions.minus_digits_6 (7 ms)
+[----------] 59 tests from IntegerFunctions (337 ms total)
+
+[----------] 2 tests from RunInteger
+[ RUN      ] RunInteger.20_prime_vector
+[       OK ] RunInteger.20_prime_vector (15371 ms)
+[ RUN      ] RunInteger.20_prime_deque
+[       OK ] RunInteger.20_prime_deque (15980 ms)
+[----------] 2 tests from RunInteger (31351 ms total)
+
+[----------] 4 tests from Primes
+[ RUN      ] Primes.19_prime
+[       OK ] Primes.19_prime (14310 ms)
+[ RUN      ] Primes.20_prime
+[       OK ] Primes.20_prime (15405 ms)
+[ RUN      ] Primes.21_prime
+[       OK ] Primes.21_prime (69345 ms)
+[ RUN      ] Primes.22_prime
+[       OK ] Primes.22_prime (72849 ms)
+[----------] 4 tests from Primes (171911 ms total)
+
+[----------] Global test environment tear-down
+[==========] 145 tests from 4 test cases ran. (223969 ms total)
+[  PASSED  ] 145 tests.
+==3710== 
+==3710== HEAP SUMMARY:
+==3710==     in use at exit: 0 bytes in 0 blocks
+==3710==   total heap usage: 660,118 allocs, 660,118 frees, 182,245,920 bytes allocated
+==3710== 
+==3710== All heap blocks were freed -- no leaks are possible
+==3710== 
+==3710== For counts of detected and suppressed errors, rerun with: -v
+==3710== ERROR SUMMARY: 6 errors from 6 contexts (suppressed: 2 from 2)
+File 'Integer.c++'
+Lines executed:16.67% of 6
+Branches executed:100.00% of 4
+Taken at least once:50.00% of 4
+Calls executed:100.00% of 1
+Creating 'Integer.c++.gcov'
+
+File '/lusr/opt/gcc-4.8.2/include/c++/4.8.2/iostream'
+Lines executed:100.00% of 1
+No branches
+Calls executed:100.00% of 2
+Creating 'iostream.gcov'
+
+File 'TestInteger.c++'
+Lines executed:100.00% of 675
+Branches executed:71.93% of 4076
+Taken at least once:35.97% of 4076
+Calls executed:58.70% of 4814
+Creating 'TestInteger.c++.gcov'
+
+File '/usr/include/gtest/internal/gtest-internal.h'
+Lines executed:66.67% of 6
+Branches executed:100.00% of 582
+Taken at least once:50.00% of 582
+Calls executed:74.74% of 1164
+Creating 'gtest-internal.h.gcov'
+
+File '/lusr/opt/gcc-4.8.2/include/c++/4.8.2/iostream'
+Lines executed:100.00% of 1
+No branches
+Calls executed:100.00% of 2
+Creating 'iostream.gcov'
+
+File '/lusr/opt/gcc-4.8.2/include/c++/4.8.2/bits/stl_algobase.h'
+Lines executed:57.81% of 64
+Branches executed:53.57% of 56
+Taken at least once:32.14% of 56
+Calls executed:56.59% of 129
+Creating 'stl_algobase.h.gcov'
+
+File '/lusr/opt/gcc-4.8.2/include/c++/4.8.2/bits/stl_iterator.h'
+Lines executed:88.00% of 25
+No branches
+Calls executed:70.59% of 17
+Creating 'stl_iterator.h.gcov'
+
+File '/lusr/opt/gcc-4.8.2/include/c++/4.8.2/bits/stl_iterator_base_types.h'
+Lines executed:66.67% of 6
+No branches
+Calls executed:80.00% of 5
+Creating 'stl_iterator_base_types.h.gcov'
+
+File '/lusr/opt/gcc-4.8.2/include/c++/4.8.2/bits/stl_construct.h'
+Lines executed:87.50% of 8
+Branches executed:0.00% of 2
+Taken at least once:0.00% of 2
+Calls executed:40.00% of 10
+Creating 'stl_construct.h.gcov'
+
+File '/lusr/opt/gcc-4.8.2/include/c++/4.8.2/bits/stl_uninitialized.h'
+Lines executed:36.36% of 22
+Branches executed:20.00% of 30
+Taken at least once:10.00% of 30
+Calls executed:25.00% of 60
+Creating 'stl_uninitialized.h.gcov'
+
+File '/lusr/opt/gcc-4.8.2/include/c++/4.8.2/bits/stl_deque.h'
+Lines executed:72.69% of 238
+Branches executed:61.90% of 84
+Taken at least once:40.48% of 84
+Calls executed:62.21% of 172
+Creating 'stl_deque.h.gcov'
+
+File '/usr/include/gtest/gtest-printers.h'
+Lines executed:0.00% of 25
+Branches executed:0.00% of 22
+Taken at least once:0.00% of 22
+Calls executed:0.00% of 36
+Creating 'gtest-printers.h.gcov'
+
+File '/lusr/opt/gcc-4.8.2/include/c++/4.8.2/bits/deque.tcc'
+Lines executed:20.43% of 186
+Branches executed:4.69% of 128
+Taken at least once:3.13% of 128
+Calls executed:14.02% of 164
+Creating 'deque.tcc.gcov'
+
+File '/lusr/opt/gcc-4.8.2/include/c++/4.8.2/bits/stl_iterator_base_funcs.h'
+Lines executed:0.00% of 11
+Branches executed:0.00% of 2
+Taken at least once:0.00% of 2
+Calls executed:0.00% of 8
+Creating 'stl_iterator_base_funcs.h.gcov'
+
+File '/lusr/opt/gcc-4.8.2/include/c++/4.8.2/bits/alloc_traits.h'
+Lines executed:80.77% of 26
+No branches
+Calls executed:94.12% of 17
+Creating 'alloc_traits.h.gcov'
+
+File '/lusr/opt/gcc-4.8.2/include/c++/4.8.2/bits/basic_string.h'
+Lines executed:28.57% of 7
+Branches executed:0.00% of 4
+Taken at least once:0.00% of 4
+Calls executed:25.00% of 4
+Creating 'basic_string.h.gcov'
+
+File '/lusr/opt/gcc-4.8.2/include/c++/4.8.2/ext/new_allocator.h'
+Lines executed:92.86% of 14
+Branches executed:100.00% of 8
+Taken at least once:50.00% of 8
+Calls executed:83.33% of 12
+Creating 'new_allocator.h.gcov'
+
+File '/lusr/opt/gcc-4.8.2/include/c++/4.8.2/ext/type_traits.h'
+Lines executed:0.00% of 2
+No branches
+No calls
+Creating 'type_traits.h.gcov'
+
+File '/lusr/opt/gcc-4.8.2/include/c++/4.8.2/bits/allocator.h'
+Lines executed:50.00% of 10
+No branches
+Calls executed:100.00% of 5
+Creating 'allocator.h.gcov'
+
+File '/lusr/opt/gcc-4.8.2/include/c++/4.8.2/bits/stl_vector.h'
+Lines executed:92.00% of 125
+Branches executed:92.86% of 28
+Taken at least once:57.14% of 28
+Calls executed:86.17% of 94
+Creating 'stl_vector.h.gcov'
+
+File '/lusr/opt/gcc-4.8.2/include/c++/4.8.2/sstream'
+Lines executed:0.00% of 1
+Branches executed:0.00% of 2
+Taken at least once:0.00% of 2
+Calls executed:0.00% of 5
+Creating 'sstream.gcov'
+
+File '/lusr/opt/gcc-4.8.2/include/c++/4.8.2/bits/basic_string.tcc'
+Lines executed:0.00% of 16
+Branches executed:0.00% of 16
+Taken at least once:0.00% of 16
+Calls executed:0.00% of 19
+Creating 'basic_string.tcc.gcov'
+
+File 'Integer.h'
+Lines executed:94.36% of 319
+Branches executed:85.75% of 800
+Taken at least once:59.75% of 800
+Calls executed:65.78% of 716
+Creating 'Integer.h.gcov'
+
+File '/lusr/opt/gcc-4.8.2/include/c++/4.8.2/bits/move.h'
+Lines executed:100.00% of 9
+No branches
+Calls executed:100.00% of 13
+Creating 'move.h.gcov'
+
+File '/lusr/opt/gcc-4.8.2/include/c++/4.8.2/bits/vector.tcc'
+Lines executed:67.74% of 62
+Branches executed:45.00% of 40
+Taken at least once:30.00% of 40
+Calls executed:57.75% of 71
+Creating 'vector.tcc.gcov'
+
+File '/usr/include/gtest/gtest.h'
+Lines executed:63.16% of 19
+Branches executed:25.45% of 110
+Taken at least once:12.73% of 110
+Calls executed:22.34% of 197
+Creating 'gtest.h.gcov'
+
+File '/lusr/opt/gcc-4.8.2/include/c++/4.8.2/streambuf'
+No executable lines
+No branches
+No calls
+Removing 'streambuf.gcov'
+
+File '/lusr/opt/gcc-4.8.2/include/c++/4.8.2/istream'
+No executable lines
+No branches
+No calls
+Removing 'istream.gcov'
+
+File '/lusr/opt/gcc-4.8.2/include/c++/4.8.2/bits/basic_ios.h'
+No executable lines
+No branches
+No calls
+Removing 'basic_ios.h.gcov'
+
+File '/lusr/opt/gcc-4.8.2/include/c++/4.8.2/ext/alloc_traits.h'
+Lines executed:75.00% of 8
+No branches
+Calls executed:100.00% of 1
+Creating 'alloc_traits.h.gcov'
+
+File '/lusr/opt/gcc-4.8.2/include/c++/4.8.2/bits/stl_stack.h'
+Lines executed:100.00% of 14
+No branches
+Calls executed:100.00% of 9
+Creating 'stl_stack.h.gcov'
+
+File '/lusr/opt/gcc-4.8.2/include/c++/4.8.2/ostream'
+No executable lines
+No branches
+No calls
+Removing 'ostream.gcov'
+
+File '/usr/include/gtest/internal/gtest-port.h'
+Lines executed:45.45% of 11
+Branches executed:16.67% of 12
+Taken at least once:8.33% of 12
+Calls executed:14.29% of 7
+Creating 'gtest-port.h.gcov'
+
+File '/lusr/opt/gcc-4.8.2/include/c++/4.8.2/iomanip'
+Lines executed:0.00% of 2
+No branches
+No calls
+Creating 'iomanip.gcov'
+
+File '/usr/include/gtest/gtest-message.h'
+Lines executed:0.00% of 4
+Branches executed:0.00% of 4
+Taken at least once:0.00% of 4
+Calls executed:0.00% of 11
+Creating 'gtest-message.h.gcov'
+
+File '/usr/include/gtest/internal/gtest-string.h'
+Lines executed:8.33% of 12
+Branches executed:100.00% of 2
+Taken at least once:100.00% of 2
+Calls executed:20.00% of 5
+Creating 'gtest-string.h.gcov'
+
+File '/lusr/opt/gcc-4.8.2/include/c++/4.8.2/bits/ios_base.h'
+Lines executed:0.00% of 8
+No branches
+No calls
+Creating 'ios_base.h.gcov'
+
+File '/lusr/opt/gcc-4.8.2/include/c++/4.8.2/new'
+Lines executed:100.00% of 2
+No branches
+No calls
+Creating 'new.gcov'
+
+File '/lusr/opt/gcc-4.8.2/include/c++/4.8.2/ext/atomicity.h'
+Lines executed:0.00% of 10
+Branches executed:0.00% of 2
+Taken at least once:0.00% of 2
+Calls executed:0.00% of 3
+Creating 'atomicity.h.gcov'
+
+File '/lusr/opt/gcc-4.8.2/include/c++/4.8.2/x86_64-unknown-linux-gnu/bits/gthr-default.h'
+Lines executed:0.00% of 2
+No branches
+No calls
+Creating 'gthr-default.h.gcov'
+
+File '/lusr/opt/gcc-4.8.2/include/c++/4.8.2/bits/char_traits.h'
+Lines executed:0.00% of 6
+No branches
+No calls
+Creating 'char_traits.h.gcov'
+

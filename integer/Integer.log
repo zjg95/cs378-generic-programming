@@ -1,0 +1,413 @@
+commit e0e644b34fbb746f19b4e37458c72462c354f4c2
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Wed Jul 8 18:57:20 2015 -0500
+
+    makefile had a bad line that broke travis. fixed.
+
+commit 79ac59ed90d756e5027c8a9cc3134a328a613d97
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Wed Jul 8 18:44:22 2015 -0500
+
+    updated makefile and travis
+
+commit d721c202df6c2affa67a1c6c82ae1eb15fb579be
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Wed Jul 8 18:39:55 2015 -0500
+
+    ran make test
+
+commit 05a0f3dac00b75f4827f8406b224b4dcda21adec
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Wed Jul 8 18:24:17 2015 -0500
+
+    updated bad travis flag and removed timing from RunInteger.c++
+
+commit 47cb5dcd5ab765141aaf280a520f6b3ae1ee14a7
+Merge: f5148bd b566cad
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Wed Jul 8 18:12:51 2015 -0500
+
+    merge with head
+
+commit f5148bd9a79f8d7f5d2394eb3cef144d8043999b
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Wed Jul 8 18:06:59 2015 -0500
+
+    less than 3 minutes for 30th prime
+
+commit 4097a18ca1377ce87a358eb7b47165b7e4264ed6
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Wed Jul 8 12:48:09 2015 -0500
+
+    0.51
+
+commit d15d5162c2b45bc872ed713b75fb3a55ef27a036
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Wed Jul 8 11:14:45 2015 -0500
+
+    0.55 seconds
+
+commit b566cadf502fb13266e4b302a73205b91f80434d
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Wed Jul 8 02:58:15 2015 -0500
+
+    time to change the plus_digits
+
+commit d305110d2969eeb41303cd1b2096b4e4c8fc1187
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Wed Jul 8 02:45:12 2015 -0500
+
+    timing can be improved by implementing compare_and_resize2
+
+commit dc5f00b51da077ecdb93456054260cc335e130d9
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Tue Jul 7 22:00:18 2015 -0500
+
+    done
+
+commit 82e7838ab3cbd6749b40bc5d3bf8f463ffe6e2ae
+Merge: 3d4695c 3cd8472
+Author: icsmith <icsmith@cs.utexas.edu>
+Date:   Tue Jul 7 21:30:24 2015 -0500
+
+    master push
+
+commit 3d4695cffa378f98edbe643a2d5a9849781b8855
+Author: icsmith <icsmith@cs.utexas.edu>
+Date:   Tue Jul 7 21:28:21 2015 -0500
+
+    tests working
+
+commit 01d1a6584813a81538ab1a49654aa89ed5d390f8
+Author: icsmith <icsmith@cs.utexas.edu>
+Date:   Tue Jul 7 13:35:19 2015 -0500
+
+    documentation added to integer.h
+
+commit 3cd8472bd69dc49fe941dae4e29951b954ab3514
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Tue Jul 7 11:57:13 2015 -0500
+
+    updated tests
+
+commit 1face80452dfcaadcdc1edb915cebd5996e3c5bf
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Tue Jul 7 11:35:52 2015 -0500
+
+    added more tests
+
+commit c06ed85cb703f0c51ed3b65d22a7e69cff42072d
+Author: icsmith <icsmith@cs.utexas.edu>
+Date:   Tue Jul 7 02:32:21 2015 -0500
+
+    attempt at multiplies. does not work :(
+
+commit 8aa0b3634e32c2e7be130565a7a39c0300cecfe0
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Mon Jul 6 12:34:43 2015 -0500
+
+    fixed #35. fixed #36. redid the < operator. It's working beautifully now.
+
+commit 3010abf164b2ab577445bd4911670bb54b58b8a0
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Mon Jul 6 11:53:12 2015 -0500
+
+    added a lot more tests. the problem is <
+
+commit 2ce657022f4149110390b6eda8299726c5e1a4da
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Mon Jul 6 05:12:29 2015 -0500
+
+    another commit
+
+commit 4c24ac43152f6ff63c95bb52f7aa935be994a4ac
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Mon Jul 6 05:08:26 2015 -0500
+
+    implemented pow
+
+commit 77b7fa51eba9cb4803cf6e0a7da76debb04c47e6
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Mon Jul 6 04:59:54 2015 -0500
+
+    implemented a lazy division
+
+commit ecbb192759b2b9dbdb5907427a769e0230f78efe
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Mon Jul 6 04:14:17 2015 -0500
+
+    fixed an error with travis CI.
+
+commit 79f716fbcbe9b3812b9b3eb798cf107e63b7bd2b
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Mon Jul 6 04:05:04 2015 -0500
+
+    subtraction tests finally passing! all 92 tests are green
+
+commit 8c07fff7ce795755947075dc058a58399907c72d
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Mon Jul 6 04:01:38 2015 -0500
+
+    subtraction is very close, but still not there
+
+commit 95bbf518fdbe91566cf2a7f9ae0cdb53c16c9bc9
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Mon Jul 6 02:46:12 2015 -0500
+
+    reimplemented subtraction algorithm. still not quite working
+
+commit f585888e7cee67c957980d671267747a0a00d6d0
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Mon Jul 6 01:59:25 2015 -0500
+
+    minus_digits seems to be working
+
+commit bd7dc2ba332a116549a0b9c25f2f046e3b373521
+Merge: d837e7d 058f858
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Mon Jul 6 01:47:47 2015 -0500
+
+    Merge branch 'new_way' into dev
+    merged
+
+commit 058f858d124cd27ec9042328940b207022d2abef
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Mon Jul 6 01:47:34 2015 -0500
+
+    updated
+
+commit d837e7d74f3457fbfa25d93f639eb12dac17ea65
+Merge: c74005e c150538
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Mon Jul 6 01:46:48 2015 -0500
+
+    added file
+
+commit c1505380f1aa785c33a815fdabcb01f80bdf16a5
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Mon Jul 6 01:45:45 2015 -0500
+
+    changed
+
+commit c74005e0a592b81fe9c9b405936f5dc276e546e4
+Merge: f03f33d f52b174
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Mon Jul 6 01:44:12 2015 -0500
+
+    merge new way
+
+commit f52b1745ce79555738c304d869be4b798f635264
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Mon Jul 6 01:42:01 2015 -0500
+
+    fixes #31. subtraction is bad.
+
+commit 33b14f8bbec4e72e3fe8ea23a1eabe7635c92bb1
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Mon Jul 6 01:18:01 2015 -0500
+
+    <<= and >>= are working
+
+commit 62f290096a8dba70a36c3e66ad3a52137eb6088b
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Mon Jul 6 00:38:33 2015 -0500
+
+    fixes 32. implemented basic subtraction. addition is good.
+
+commit 75e2807d008cf2cbf99734b6330066a9a639e08d
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Sun Jul 5 21:29:06 2015 -0500
+
+    updated += and minus digits
+
+commit 0e05aca9f9aeb6df47608c6e543770afd7a19500
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Sun Jul 5 12:37:54 2015 -0500
+
+    fixed #30. plus_digits works
+
+commit 8c3c2ffd43ef72e7deb44c7c598dc352a045a9f0
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Sun Jul 5 12:11:59 2015 -0500
+
+    implemented shift left and shift right and plus digits. fixes #26
+
+commit f03f33d809445adb9669abe0ded6eaca1a263e82
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Sat Jul 4 16:52:29 2015 -0500
+
+    updated tests
+
+commit e5d64a0a3a49330ff281de6202dc39db33cf5fec
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Sat Jul 4 16:43:41 2015 -0500
+
+    added tests for -= and /=
+
+commit c595c724cb0bd006c385afa704a338ddc3fb43b8
+Author: icsmith <icsmith@cs.utexas.edu>
+Date:   Sat Jul 4 16:37:18 2015 -0500
+
+    <<= and >>= implemented
+
+commit 1b85ba3aed9abfc7ce545729f50fd03576e93759
+Author: icsmith <icsmith@cs.utexas.edu>
+Date:   Sat Jul 4 16:10:07 2015 -0500
+
+    plus_digits and remove_leading_zeros working as expected
+
+commit abd5a59df9c101d59b3881c7693ade0745fcf7d5
+Author: icsmith <icsmith@cs.utexas.edu>
+Date:   Fri Jul 3 23:56:32 2015 -0500
+
+    made improvements to add_digits and add_leading_zeros. still failing on multiple carry problem, i.e. 999 + 1
+
+commit 8ef935182947b2dcf240167cf708a3d27e4c7bde
+Author: icsmith <icsmith@cs.utexas.edu>
+Date:   Fri Jul 3 23:02:32 2015 -0500
+
+    fixed string constructor, again. Added bounds check for '000' case
+
+commit 7ae22557f019cbab5a4a207a18c5f7c8917ba529
+Author: icsmith <icsmith@cs.utexas.edu>
+Date:   Fri Jul 3 22:55:26 2015 -0500
+
+    fixed string constructor. accounts for negative and leading zeroes
+
+commit 783123f5a2ff103758ac7ab5246998fe31d08993
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Fri Jul 3 18:00:17 2015 -0500
+
+    changed printing
+
+commit 46db83bf61a49606478f6911c6efaa7c711e96ee
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Fri Jul 3 17:55:13 2015 -0500
+
+    this is going to break everything
+
+commit eda3004a4c414c1db6707f17fa9b3bb34b8cdb48
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Fri Jul 3 12:34:49 2015 -0500
+
+    began +=
+
+commit 86a3be591877f0dae298a9fd5e0ef7ae7fc51a4a
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Fri Jul 3 10:55:29 2015 -0500
+
+    added tests for add_digits
+
+commit 473f75080b9bbd4a702eef38ea71deb4c6f83ef8
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Fri Jul 3 00:10:26 2015 -0500
+
+    added operator <
+
+commit 80482a69c09a1b576686859357809aa6a6ead3e1
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Thu Jul 2 23:37:24 2015 -0500
+
+    added operator ==
+
+commit 21ce9385d50bec8c98b2ca50e5a855c407906632
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Thu Jul 2 22:51:02 2015 -0500
+
+    added more tests
+
+commit d3adec4969a3f9279a1f1ffee6451c19c2055800
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Thu Jul 2 21:44:22 2015 -0500
+
+    changed downing's brackets
+
+commit 9133a1c6844bb12db2ed5d496d9555b289eac828
+Author: icsmith <icsmith@cs.utexas.edu>
+Date:   Thu Jul 2 18:47:15 2015 -0500
+
+    implemented negation
+
+commit 766dc1c37e34070ccfc461c1071b8fb458584022
+Author: icsmith <icsmith@cs.utexas.edu>
+Date:   Thu Jul 2 18:38:10 2015 -0500
+
+    implemented constructors with negative signs
+
+commit 28c56c2cf36795f207962849736a12c3bf204dd3
+Author: icsmith <icsmith@cs.utexas.edu>
+Date:   Thu Jul 2 18:11:58 2015 -0500
+
+    implemented constructor and printing operator.
+
+commit df95cba8fabe2b689a4ff2c417e5c71d7c52775c
+Author: icsmith <icsmith@cs.utexas.edu>
+Date:   Thu Jul 2 17:49:19 2015 -0500
+
+    added valid method
+
+commit 0c6a40a3cfb92ab9d774fcea7a47d2807d9496ab
+Author: icsmith <icsmith@cs.utexas.edu>
+Date:   Thu Jul 2 17:46:19 2015 -0500
+
+    implemented iterator. fixes #17 fixes #18
+
+commit c8b6fa84c915d2e6a7ef78b019b4be93cd158497
+Author: icsmith <icsmith@cs.utexas.edu>
+Date:   Thu Jul 2 16:22:20 2015 -0500
+
+    .gitignore file made
+
+commit e201b0cb60e463e090a37c237e5f0d5a0dbd7457
+Author: icsmith <icsmith@cs.utexas.edu>
+Date:   Thu Jul 2 16:18:47 2015 -0500
+
+    right shift code updated to fit spec
+
+commit ceea22911e44a33383daaec6451b2c811bcc9384
+Author: icsmith <icsmith@cs.utexas.edu>
+Date:   Thu Jul 2 16:18:15 2015 -0500
+
+    changed shift right as a response to Downing's piazza post
+
+commit 0ae878f58bfca738d0652f61469e75d003d8e782
+Author: icsmith <icsmith@cs.utexas.edu>
+Date:   Thu Jul 2 16:05:11 2015 -0500
+
+    bounds checking on shift_right. fixes #21. started iterator skeleton at bottom of .h
+
+commit 431644ef3843465f32d13669d6bde686975d0fb8
+Author: icsmith <icsmith@cs.utexas.edu>
+Date:   Thu Jul 2 15:26:57 2015 -0500
+
+    left shift and right shift. works with tests on perfect input
+
+commit f96d093e64633f1f67124e3d384c2353d37eb07f
+Author: icsmith <icsmith@cs.utexas.edu>
+Date:   Thu Jul 2 14:19:48 2015 -0500
+
+    closes #19. result container must contain enough space to write
+
+commit 688c8d8e4582b840909c080e091c72990a9801e5
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Wed Jul 1 19:31:12 2015 -0500
+
+    added unit tests
+
+commit b89098e3e0b86d764e53f903b6f3cf14a0e2ba7e
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Wed Jul 1 17:51:28 2015 -0500
+
+    updated files to include downing's skeleton code
+
+commit 4d0f3359f6360ccedce70faf80479c0ea6020daf
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Mon Jun 29 18:34:04 2015 -0500
+
+    added initial files. fixes #3
+
+commit 6298c3c4fe1aecd2a45b659197cfa212661672a6
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Mon Jun 29 17:44:18 2015 -0500
+
+    first commit

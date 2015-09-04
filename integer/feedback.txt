@@ -1,0 +1,15 @@
+This is the feedback for (group) ics245 zjg95 project
+Requirement #1: 5
+Requirement #2: 5
+Requirement #3: 25
+Requirement #4: 20
+Requirement #5: 10
+Requirement #6: 5
+Bonus points:
+Minus (reasons in comments):
+Comment:
+partner +5
+passed 61/68 test cases -3
+20th Mersenne prime 0.368235 seconds
+30th Mersenne prime : 123.601 seconds +5
+no multiplies_digit and divides_digit -6
