@@ -1,0 +1,143 @@
+commit 817e29ca0c84f48c45226b67202b6ee180722be1
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Mon Jun 22 02:05:54 2015 -0500
+
+    added html. fixes #17
+
+commit c854518c0dd3c2c2d08a9b196ed457a7cde6d145
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Mon Jun 22 02:00:50 2015 -0500
+
+    added comments for doxygen. fixes #27
+
+commit 3c254352e260fff2ea019a6a402642803c3f54a0
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Mon Jun 22 01:20:43 2015 -0500
+
+    removed print statements
+
+commit ae81050f527d1d9d5d9bacff5af944ec7337dec2
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Mon Jun 22 01:06:05 2015 -0500
+
+    sphere accepts the solution! fixes #25 fixes #26.
+
+commit 75b3f4a01a0da4ad322beba38538ebe09664f1ee
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Mon Jun 22 00:58:41 2015 -0500
+
+    updated code, should fix #26
+
+commit ddf2e79846b3f272a19f47e75e70b42d135baaba
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Sun Jun 21 23:17:04 2015 -0500
+
+    updated method names
+
+commit 41e9351219aaa24cd88c3a3b6c100e618b59140b
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Sun Jun 21 23:11:17 2015 -0500
+
+    added more tests
+
+commit 6d505d535c87bdbb1792906e842506d597052b3d
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Sun Jun 21 22:11:15 2015 -0500
+
+    removed prints
+
+commit 4a34660c2f6856488a7b12fe1cf8a089ec3f2ff3
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Sun Jun 21 22:04:35 2015 -0500
+
+    fixes #24. imported asserts
+
+commit e98daed95f35f95f263fa7fc4a1dbb19d3319033
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Sun Jun 21 22:02:02 2015 -0500
+
+    added another test
+
+commit 7bdb98b08dc6509a611662e0c9eb93bd754cc83d
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Sun Jun 21 21:55:44 2015 -0500
+
+    fixes #23. implemented solution. seems to be working
+
+commit 1bb1bafba828d10231194934c3ca3f969057b0aa
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Sun Jun 21 21:31:26 2015 -0500
+
+    updated some of the task methods
+
+commit 118ad9c25ca8bc682d57fb2dffbf690281c9c21a
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Sun Jun 21 19:03:42 2015 -0500
+
+    updated push to queue. need to update popping
+
+commit f4da6f55b9fbe27b5b6dc542c996241e8ce21868
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Sun Jun 21 17:59:43 2015 -0500
+
+    need to implement priority queue
+
+commit d9975991757dd7d303438a2fd9fd79a744889031
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Sun Jun 21 16:33:36 2015 -0500
+
+    added small rule details
+
+commit 00ed734c6ea9329430e7b3d9eae72dbdfa1bb855
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Sun Jun 21 16:23:55 2015 -0500
+
+    updated code, ready for eval
+
+commit 610a862e024ab5458bac51da46d1c87606ecd688
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Sun Jun 21 15:48:52 2015 -0500
+
+    added get_input_list method
+
+commit 3f53c6dd21b9ed4cda6bd7f5f57f5fadef5d0294
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Sun Jun 21 15:35:17 2015 -0500
+
+    wrote proper tests and additional methods
+
+commit 1af3e9bf5ff80c051df9bf4bd22ceb31567abdc0
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Sun Jun 21 14:57:17 2015 -0500
+
+    removed some collatz code, rewrote print tests
+
+commit 1a502ea60c315c16c97576fc0263e2c0ed7ef9ef
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Sun Jun 21 14:35:05 2015 -0500
+
+    added RunPFD.out
+
+commit 78c78ae9db7a2493026a8160f9e5d6d1215a90bd
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Sun Jun 21 14:32:17 2015 -0500
+
+    removed collatz cycle code
+
+commit ac18917ba43de17f363a8625d827ed71252ed9e2
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Sun Jun 21 14:24:22 2015 -0500
+
+    added travis
+
+commit 10e79df6ed6f1ecffb7eca2fd73c1d19839ea2c3
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Sun Jun 21 14:22:29 2015 -0500
+
+    added core files
+
+commit d0ad6456b72005291b1c0eb890745ec7cab70aba
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Thu Jun 18 14:58:22 2015 -0500
+
+    first commit
