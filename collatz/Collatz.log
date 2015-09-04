@@ -1,0 +1,143 @@
+commit f8db314714e8fbd2eb5338fa6836b9e41994106a
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Fri Jun 12 10:37:09 2015 -0500
+
+    updated acceptance tests
+
+commit 2b53676f57d0de987bd52e15d0c7eef661330ede
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Fri Jun 12 10:33:13 2015 -0500
+
+    added asserts and additional unit tests.
+
+commit 15e1ee497dca1c8ec164838cb4077170a389022e
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Thu Jun 11 18:07:53 2015 -0500
+
+    added final files
+
+commit 9ec3e2ef010653734d7ee606a6c9c82695b39827
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Thu Jun 11 18:05:22 2015 -0500
+
+    added html
+
+commit dee54e6b4e321b4c4a40ff88ee64cf96544593ae
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Thu Jun 11 15:08:29 2015 -0500
+
+    made small updates
+
+commit 6c5d1702af74cabd9a2266e99be8cd646a95561c
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Thu Jun 11 14:32:53 2015 -0500
+
+    added additional unit tests. fixes #18. Updated feature flags for cache
+
+commit 53b0407c297ff94c28b9326513a8efab358bf4ff
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Thu Jun 11 13:29:51 2015 -0500
+
+    updated makefile. fixes #19.
+
+commit 8bd099d522c72c9637ef52f3299e526ff5d88075
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Wed Jun 10 19:10:43 2015 -0500
+
+    updated ifdef flags
+
+commit 2880acb692453603e1ee998a9cd1e619cb2d03db
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Wed Jun 10 18:23:06 2015 -0500
+
+    added feature flag for cache
+
+commit 925f10fb984715ffeea04ada08fd92fb8b4f914d
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Wed Jun 10 15:00:01 2015 -0500
+
+    added some comments for doxygen
+
+commit a85438f423ae258ef76dc35415cc31e022665692
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Tue Jun 9 18:27:20 2015 -0500
+
+    updated code to prevent infinite recursion. fixes #16. Created more test values
+
+commit f9a5a72535972f361c749791e6e24e169af82f8e
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Tue Jun 9 17:29:19 2015 -0500
+
+    updated collatz_eval, fixes #12. Added spherecollatz
+
+commit 8a1d671766bbdd4d05a32626ab6486ff9c8244a3
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Tue Jun 9 16:39:15 2015 -0500
+
+    added simple cache
+
+commit 945dbd2103ffdc9613e2155511e1f918d1efd217
+Author: Zachary Goodman <zjg95@cs.utexas.edu>
+Date:   Tue Jun 9 15:56:08 2015 -0500
+
+    updated code, tests pass.
+
+commit 110a18fa001fa8e103bb94028292683e61df5977
+Author: Zach Goodman <zjg95@Decadence.local>
+Date:   Mon Jun 8 01:27:45 2015 -0500
+
+    updated eval
+
+commit 6f295331f4c7c0b07a08a92d9009f99c79bbe250
+Author: Zach Goodman <zjg95@Decadence.local>
+Date:   Mon Jun 8 01:23:49 2015 -0500
+
+    updated eval, tests will now fail.
+
+commit 4de3fa33596e5bca57b7aa5331676c1b97f021b7
+Author: Zach Goodman <zjg95@Decadence.local>
+Date:   Mon Jun 8 01:19:41 2015 -0500
+
+    another commit
+
+commit 4ccf59345e1d7f40e210bfc1c3534ff381782776
+Author: Zach Goodman <zjg95@Decadence.local>
+Date:   Mon Jun 8 01:18:02 2015 -0500
+
+    updated collatz_eval
+
+commit df27dd70dd36fcb505ed48b990cc129220fca8fc
+Author: Zach Goodman <zjg95@Decadence.local>
+Date:   Mon Jun 8 00:39:29 2015 -0500
+
+    updated travis
+
+commit 0683e7968ef6e776f187e1dfded671439db086d2
+Author: Zach Goodman <zjg95@Decadence.local>
+Date:   Mon Jun 8 00:33:51 2015 -0500
+
+    added travis.yml
+
+commit ade5b1cefad99f71d2ed526526caa00d878466d6
+Author: Zach Goodman <zjg95@Decadence.local>
+Date:   Mon Jun 8 00:24:28 2015 -0500
+
+    added travis.yml
+
+commit a573d2aaec48a74cde60d6d234923290a27b9dbc
+Author: Zach Goodman <zjg95@Decadence.local>
+Date:   Mon Jun 8 00:14:59 2015 -0500
+
+    updated makefile
+
+commit 4b2ecb7699888191844819bb87f373f1254a5f9e
+Author: Zach Goodman <zjg95@Decadence.local>
+Date:   Sat Jun 6 16:55:26 2015 -0500
+
+    added necessary files
+
+commit 6df528cefa765c8808982a0ed7ed738b85b401c7
+Author: Zach Goodman <zjg95@Decadence.local>
+Date:   Sat Jun 6 16:37:21 2015 -0500
+
+    first commit
