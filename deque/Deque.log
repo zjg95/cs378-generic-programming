@@ -1,0 +1,304 @@
+commit 7290d67ce986a5dfe40a219d8fe28df40e36ef03
+Merge: 5f93575 501d7af
+Author: Zachary Goodman <zjgoodman@utexas.edu>
+Date:   Wed Jul 15 21:52:58 2015 -0500
+
+    Merge branch 'dev'
+
+commit 501d7afb80c1402235b551d15f660cbf1851b5ca
+Merge: ce94cc8 642c4cb
+Author: Scott Stephens <stevo4932@utexas.edu>
+Date:   Wed Jul 15 21:52:30 2015 -0500
+
+    Merge branch 'dev' of https://github.com/stevo4932/cs378-deque into dev
+
+commit ce94cc8a35ac59d9081683e64eb83716277d395a
+Author: Scott Stephens <stevo4932@utexas.edu>
+Date:   Wed Jul 15 21:52:09 2015 -0500
+
+    updated
+
+commit 5f93575fcaf4546094b307f49402d3f912612819
+Author: Zachary Goodman <zjgoodman@utexas.edu>
+Date:   Wed Jul 15 21:48:36 2015 -0500
+
+    updated makefile
+
+commit 642c4cb0f80e0a6b117053e2674782e1c5008579
+Author: Zachary Goodman <zjgoodman@utexas.edu>
+Date:   Wed Jul 15 21:46:48 2015 -0500
+
+    added TestDeque.out
+
+commit 7f8fdc6dee0e2d9e69e540c044df747c5b135499
+Author: Zachary Goodman <zjgoodman@utexas.edu>
+Date:   Wed Jul 15 21:43:22 2015 -0500
+
+    ready for final steps
+
+commit 481066a99630557ba14dfdf45406b8d0b00f8fae
+Author: Zachary Goodman <zjgoodman@utexas.edu>
+Date:   Wed Jul 15 21:34:08 2015 -0500
+
+    updated tests for operator=
+
+commit 928be2af10626f15c6b8ffedc880152763dfac1d
+Author: Zachary Goodman <zjgoodman@utexas.edu>
+Date:   Wed Jul 15 21:26:53 2015 -0500
+
+    updated code
+
+commit 5ad30c0e4d92ed55b84be5e5e938acb040e36d2a
+Author: Zachary Goodman <zjgoodman@utexas.edu>
+Date:   Wed Jul 15 21:26:29 2015 -0500
+
+    updated code
+
+commit 3f58f7800a99cc55df2ccbc975b5b8652eb371cb
+Author: Zachary Goodman <zjgoodman@utexas.edu>
+Date:   Wed Jul 15 21:23:54 2015 -0500
+
+    implemented assignment operator. fixed #27
+
+commit 632a47a18195ad3ebda15396e9a789bb6a7aa9c8
+Merge: a93ba03 e86a798
+Author: Zachary Goodman <zjgoodman@utexas.edu>
+Date:   Wed Jul 15 21:13:08 2015 -0500
+
+    Merge branch 'dev' of https://github.com/stevo4932/cs378-deque into dev
+
+commit a93ba0312583b47ab8f8481915ae9726693cc6a4
+Author: Zachary Goodman <zjgoodman@utexas.edu>
+Date:   Wed Jul 15 21:12:52 2015 -0500
+
+    implemented destructor. fixed #26 fixed #25 fixed #24
+
+commit e86a798256f386e6d5dd9cbcf71c494c5f62fd2b
+Author: Scott Stephens <stevo4932@utexas.edu>
+Date:   Wed Jul 15 21:11:15 2015 -0500
+
+    added equals
+
+commit 21e074473ad324c03b95c4cc4ddbc66b5337c541
+Author: Zachary Goodman <zjgoodman@utexas.edu>
+Date:   Wed Jul 15 20:41:12 2015 -0500
+
+    implemented == and <
+
+commit 4c8ac9dd8f916afcfa779aba394a657f6edf4b26
+Author: Scott Stephens <stevo4932@utexas.edu>
+Date:   Wed Jul 15 20:23:21 2015 -0500
+
+    insert working
+
+commit e725a47626836032c1d4b6ba850136d04fd6961c
+Author: Scott Stephens <stevo4932@utexas.edu>
+Date:   Wed Jul 15 20:02:05 2015 -0500
+
+    push_front works
+
+commit 474e8cf2e8d091ac31c7d35924f1fa8ae1cfcaa4
+Author: Scott Stephens <stevo4932@utexas.edu>
+Date:   Wed Jul 15 19:48:19 2015 -0500
+
+    passing push_back
+
+commit 51730d25d25e220b4937214dca966e4dc96591c6
+Author: Scott Stephens <stevo4932@utexas.edu>
+Date:   Wed Jul 15 17:00:44 2015 -0500
+
+    1/3 insert cases working
+
+commit 7cab5c56cf26a69f9499d56b596013ec02da51d0
+Author: Scott Stephens <stevo4932@utexas.edu>
+Date:   Tue Jul 14 13:04:58 2015 -0500
+
+    implemented insert without resize
+
+commit 23cefb36949878b36f10b175524e40c38c6870af
+Author: Scott Stephens <stevo4932@utexas.edu>
+Date:   Tue Jul 14 12:22:32 2015 -0500
+
+    resize appears to be working! fixed #21 fixed #22 fixed #23
+
+commit 7291d48a14999409b078aba93fcfba548de956f3
+Author: Scott Stephens <stevo4932@utexas.edu>
+Date:   Tue Jul 14 11:56:25 2015 -0500
+
+    added back and forward (not working)
+
+commit 5ef9d9a7fa6fea924f5fe060b435a57feee960a9
+Author: Scott Stephens <stevo4932@utexas.edu>
+Date:   Tue Jul 14 03:37:59 2015 -0500
+
+    travis working
+
+commit 8e911072facbd4efb985075fd18c10e960370581
+Author: Scott Stephens <stevo4932@utexas.edu>
+Date:   Tue Jul 14 03:29:03 2015 -0500
+
+    implemented swap and the resize constructor
+
+commit 64238bfbc8b0145e371769ae81543b71550eb5f3
+Author: Scott Stephens <stevo4932@utexas.edu>
+Date:   Tue Jul 14 00:17:02 2015 -0500
+
+    copy constructor, started resize
+
+commit 4e996f4ce493f34c541cd0368c4b210f6cff78ad
+Author: Scott Stephens <stevo4932@utexas.edu>
+Date:   Mon Jul 13 22:10:35 2015 -0500
+
+    added allocator to default constructor.
+
+commit 7846361028217691cf3b77dd757a49484bd4ddeb
+Author: Scott Stephens <stevo4932@utexas.edu>
+Date:   Mon Jul 13 21:50:43 2015 -0500
+
+    implemented pop_front and pop_back
+
+commit fd3792d51f47f1b53ba3e243573cc39155bfdac1
+Author: Scott Stephens <stevo4932@utexas.edu>
+Date:   Mon Jul 13 21:12:46 2015 -0500
+
+    fixed #20, implemented erase
+
+commit 38a584f424058ac44c611dc54ec02f6f59565d9b
+Author: Scott Stephens <stevo4932@utexas.edu>
+Date:   Mon Jul 13 19:55:02 2015 -0500
+
+    fixed #19, end and iterator == working now
+
+commit d1b1184885f99b0467dae3318cc6fb4d590d7bbe
+Author: Scott Stephens <stevo4932@utexas.edu>
+Date:   Mon Jul 13 17:37:09 2015 -0500
+
+    close #18 implemented at function and added tests
+
+commit 309ace003ad469e8e379f027441dcd943b2a3737
+Author: Zachary Goodman <zjgoodman@utexas.edu>
+Date:   Mon Jul 13 02:32:59 2015 -0500
+
+    implemented basic iterator/const_iterator. implemented begin(). started end(). #15 #16 #17
+
+commit 5283ae5dd7036a0689a4c57f39114f6319eb3350
+Merge: ac9100d 1970c9a
+Author: Zachary Goodman <zjgoodman@utexas.edu>
+Date:   Mon Jul 13 01:35:10 2015 -0500
+
+    Merge branch 'master' into dev
+
+commit ac9100dcd6a6daa983027776d4c989a88b141e55
+Author: Scott Stephens <stevo4932@gmail.com>
+Date:   Sun Jul 12 02:36:17 2015 -0500
+
+    updated .gitignor
+
+commit 1970c9a98c8e454f5c5568022082aa670dcf46a6
+Merge: d0d5216 f3eb5b9
+Author: Zachary Goodman <zjgoodman@utexas.edu>
+Date:   Sun Jul 12 02:20:40 2015 -0500
+
+    Merge branch 'dev'
+
+commit f3eb5b9fc2ad56deb77cec9fbc2a23d4d164aa62
+Author: Zachary Goodman <zjgoodman@utexas.edu>
+Date:   Sun Jul 12 02:12:32 2015 -0500
+
+    implemented front and back. seems to work well. fixed #12
+
+commit 3b78df80aeeb7cdc99abd1778caf83d22dbd3b23
+Author: Scott Stephens <stevo4932@utexas.edu>
+Date:   Sun Jul 12 00:02:46 2015 -0500
+
+    fixed #13 bug in index function
+
+commit 4f5b46a1dfb0f00124410db9b08ba6d75295c195
+Author: Scott Stephens <stevo4932@utexas.edu>
+Date:   Sat Jul 11 22:16:32 2015 -0500
+
+    updated constructor. It seems to be working properly! fixed #11
+
+commit c9a3f5c19c550a8a86d22c205fe45df8a5887c1b
+Author: Scott Stephens <stevo4932@utexas.edu>
+Date:   Sat Jul 11 21:19:43 2015 -0500
+
+    implemented constructors
+
+commit 55deadb1b7441053b755d6ca3065ba0ded209e61
+Author: Zachary Goodman <zjgoodman@utexas.edu>
+Date:   Sat Jul 11 20:05:00 2015 -0500
+
+    updated unit tests
+
+commit e411923d5b93bcb9f60303275e47ac47ed4ae52a
+Author: Zachary Goodman <zjgoodman@utexas.edu>
+Date:   Sat Jul 11 19:38:41 2015 -0500
+
+    updated makefile and travis
+
+commit d0d5216cab9667081ff6d109b9341a9a81ad1655
+Author: Zachary Goodman <zjg95@users.noreply.github.com>
+Date:   Sat Jul 11 19:32:08 2015 -0500
+
+    Update makefile
+
+commit afb6425aed76d166acf287304054d5da0fcd4e5e
+Author: Zachary Goodman <zjg95@users.noreply.github.com>
+Date:   Sat Jul 11 19:30:31 2015 -0500
+
+    Update makefile
+
+commit 82be4707f6a5cdabefe11cf8a086284e8bddc9bd
+Author: Zachary Goodman <zjg95@users.noreply.github.com>
+Date:   Sat Jul 11 19:30:04 2015 -0500
+
+    Update .travis.yml
+
+commit ec60423f7791e52a92ca3e062a6d3e1c94118880
+Author: Scott Stephens <stevo4932@utexas.edu>
+Date:   Sat Jul 11 19:26:51 2015 -0500
+
+    started constructors
+
+commit 812c0f3db36ac1777b3f04191116a04f402745dd
+Author: Scott Stephens <stevo4932@gmail.com>
+Date:   Thu Jul 9 17:53:47 2015 -0500
+
+    adding .gitiginor
+
+commit ba1f964a21a681ef7f3336a02b51a26e47685873
+Author: Scott Stephens <stevo4932@utexas.edu>
+Date:   Wed Jul 8 21:03:11 2015 -0500
+
+    updated travis commands
+
+commit 984bf203215a1bcc7521ea4b50b25c87fa466753
+Author: Scott Stephens <stevo4932@utexas.edu>
+Date:   Wed Jul 8 20:56:41 2015 -0500
+
+    added sudo to travis
+
+commit f5298d4c7ac4c7de67fed21323d14183e630569e
+Author: Scott Stephens <stevo4932@utexas.edu>
+Date:   Wed Jul 8 20:55:00 2015 -0500
+
+    adding travis file
+
+commit 66e192096c7cfc24c27002881158245791c0c54f
+Author: Scott Stephens <stevo4932@utexas.edu>
+Date:   Wed Jul 8 20:53:13 2015 -0500
+
+    testing travis
+
+commit 8d62d807a11551ca2842562b8b77536d1f91a877
+Author: Scott Stephens <stevo4932@utexas.edu>
+Date:   Wed Jul 8 20:29:39 2015 -0500
+
+    remove readme
+
+commit e0d96e6a806d765c066e059b5cc961e7fc23ecba
+Author: stevo4932 <stevo4932@utexas.edu>
+Date:   Wed Jul 8 20:28:26 2015 -0500
+
+    Initial commit
